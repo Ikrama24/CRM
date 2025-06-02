@@ -3,3 +3,10 @@
  for  (int i = 0; i < feedbackRatings.length;  i++) {
 
          
+           switch (feedbackRatings[i]) {
+                   case 4:
+                           System.out.println(“Excellent feedback”);
+break;
+                 case 3:
+                           System.out.println(“Good feedback”);
+
